@@ -1,0 +1,7 @@
+{
+  "name": "ionic-expandable-listIOS",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <button detail-none (click)="expandItem(item)" ion-item *ngFor="let item of items">
+      <ion-thumbnail item-start>
+          <ion-icon name="megaphone">
+
+            </ion-icon>
+
+      </ion-thumbnail>
+
+      <h2>Notice from Admin</h2>
+      <p>Click to view to see the content at details</p>
+      <expandable [expandHeight]="itemExpandHeight" [expanded]="item.expanded">
+          <img src="../assets/imgs/logo2.png">
+          <h1>Welcome to application</h1>
+          <h2></h2>
+
+          <h2>This is application based on Hybrid approach</h2>
+          <h2>Name application: Hello</h2>
+          <h2>Version: Version 1.0</h2>
+          <h2>Developed by: SMMClab Korea</h2>
+          <h2>Thank you very much</h2>
+
+         
+      </expandable>
+      <button ion-button clear item-end>View</button>
+
+    </button>
+  </ion-list>
+</ion-content>
