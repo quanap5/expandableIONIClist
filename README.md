@@ -31,6 +31,8 @@ Modify ../components/expandable/expandable.ts like:
 # Using Component to create an Accordion List
 The component is completed now, so all we need to is use it in project.
 
+<img src="https://github.com/quanap5/expandableIONIClist/blob/master/IMG_4914.jpg">
 
+<img src="https://github.com/quanap5/expandableIONIClist/blob/master/IMG_4915.jpg">
 
 
